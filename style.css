@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width:300px;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+   
+}
+img{
+    width:100%;
+  
+}
+.a1{
+    color:rgb(29, 28, 28);
+    background-color: tomato;
+    position:absolute;
+    font-weight: 200px;
+    top:0;
+    padding:5px
+    
+    
+}
+.b1{
+    background-color: aqua;
+    color: orangered;
+    position: absolute;
+    font-weight: 200px;
+    top:0;
+    padding:5px
+}
+
+
+.b2{
+    background-color:lightsalmon;
+    color:rgb(114, 32, 114);
+    position: absolute;
+    font-weight: 200px;
+    top:0;
+    padding:5px
+
+}
+.b3{
+    background-color:rgb(205, 106, 66);
+    color:rgb(46, 79, 112);
+    position: absolute;
+    font-weight: 200px;
+    top:0;
+    padding:5px
+
+}
+
+.b4{
+    color:rgb(29, 28, 28);
+    background-color: tomato;
+    position:absolute;
+    font-weight: 200px;
+    top:0;
+    padding:5px
+    
+    
+}
+.b5{
+     background-color: aqua;
+    color: orangered;
+    position: absolute;
+    font-weight: 200px;
+    top:0;
+    padding:5px
+}
+
+.b6{
+    background-color:lightsalmon;
+    color:rgb(114, 32, 114);
+    position: absolute;
+    font-weight: 200px;
+    top:0;
+    padding:5px
+}
+.b7{
+    background-color:rgb(205, 106, 66);
+    color:rgb(46, 79, 112);
+    position: absolute;
+    font-weight: 200px;
+    top:0;
+    padding:5px
+
+}
+body{
+    background-color: darkturquoise;
+}
+.container1 {
+    background-color: lightcoral;
+    width: 80%;
+    /* height:40%; */
+    border: 5px;
+    padding-left: 20px;
+    border-style: solid;
+    border-color: black;
+    padding: 0;
+
+    margin: 0 auto; 
+    font-family: Arial, sans-serif;
+}
+
+.item1, .item2, .item3, .item4 {
+    width: 20%;
+    border: 2px;
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: top;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.item1 img,
+.item2 img,
+.item3 img,
+.item4 img {
+    border-radius: 8px;
+    display: block;
+    /* ADDITIONS */
+    border-width: 4px;
+    border-style: solid;
+    padding: 4px;
+    margin: 0 auto;
+    width: 200px;
+    height: 400px;
+}
+
+.item1 img {
+    border: 4px solid rgb(236, 227, 227);
+}
+.item2 img {
+    border: 4px solid rgb(236, 227, 227);
+}
+.item3 img {
+    border: 4px solid lightskyblue;
+}
+.item4 img {
+    border: 4px solid rgb(231, 25, 25);
+}
+
+.h3 {
+    align-items: center;
+    font-weight: 100;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.item1{
+    padding-left: 80px;
+}
+.item1 {
+    padding-left: 80px;
+    margin-right: 40px; /* Space between v1 and v2 */
+}
+
+/* OR, use this for uniform spacing between all items */
+.item1, .item2, .item3, .item4 {
+    margin: 0 20px; /* Equal spacing on left and right */
+}
+
+button{
+    background-color: red;
+    color: aliceblue;
+    font-weight: 300px;
+}
